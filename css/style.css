@@ -1,0 +1,57 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 100;
+    margin-top: 10px;
+}
+
+img {
+    max-height: 400px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+#website-title {
+    margin-top: 40px;
+}
+
+#click-count,
+#click-rank {
+    display: inline;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -30px;
+    padding: 0 0 30px;
+}
+
+#footer {
+    height: 30px;
+}
+
+/* social media icons */
+.icons {
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    opacity: 0.75;
+}
+
+.icons:hover {
+    opacity: 1;
+}
